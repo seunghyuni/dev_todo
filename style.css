@@ -1,0 +1,176 @@
+body {
+
+    font-family: sans-serif;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  .form1, .form2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="datetime-local"] {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+}
+
+  #addBtn:hover {
+    background-color: #444;
+  }
+
+  .todo-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .todo-list li button:hover {
+    background-color: #d32f2f;
+  }
+
+  #footer{
+    display:  flex;
+    justify-content: right;
+    margin-top: 20px;
+  }
+
+  #footer > button {
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #footer > button:hover{
+    background-color: #444;
+  }
+
+  #countSpan{
+    flex-grow: 0.4;
+    margin: auto;
+  }
+
+  #countSpanInput{
+    flex-grow: 10;
+    margin: auto;
+  }
+
+  #All{
+    flex-grow:3;
+    text-align: center;
+    cursor: pointer;
+    margin: 15px;
+    background-color: lightgray;
+    width: 15px;
+  }
+
+  #Active{
+    flex-grow:3;
+    text-align: center; 
+    cursor: pointer;
+    margin: 15px;
+    background-color: lightgray;
+    width: 15px;
+  }
+
+  #Complete{
+    flex-grow: 3;
+    text-align: center;
+    cursor: pointer;
+    margin: 15px;
+    background-color: lightgray;
+    width: 30px;
+  }
+
+  #footer > span {
+    font-size:12px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5px;
+  
+  }
+  
+  /*  ---------------------------  */
+  
+  .liContainer{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .liSpan{
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+
+  .liButton {
+    padding: 7px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f44336;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  #addBtn{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+======
+    font-family: Arial, sans-serif;
+    margin: 20px;
+
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.todo-count {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.inline-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
